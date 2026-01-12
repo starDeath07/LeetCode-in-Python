@@ -1,0 +1,15 @@
+
+{
+  "typeCheckingMode": "basic",
+  "include": ["."],
+  "exclude": [
+    "node_modules",
+    ".git",
+    "**/__pycache__"
+  ],
+  "reportMissingImports": true,
+  "reportUnusedVariable": true,
+  "reportOptionalSubscript": false,
+  "reportOptionalMemberAccess": false
+}
+
