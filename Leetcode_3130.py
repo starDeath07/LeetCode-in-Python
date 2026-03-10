@@ -1,6 +1,6 @@
 class Solution:
     def numberOfStableArrays(self, zero: int, one: int, limit: int) -> int:
-        MOD = 10**10 + 7
+        MOD = 10**9 + 7
         dp = [[[0] * 2 for _ in range(one + 1)] for _ in range(zero + 1)]
 
         for i in range(min(zero, limit) + 1):
